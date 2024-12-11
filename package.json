@@ -1,0 +1,27 @@
+{
+  "name": "mf_boilerplate_consumer",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "rsbuild dev --open",
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@module-federation/enhanced": "^0.8.1",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.12.0",
+    "@module-federation/rsbuild-plugin": "^0.8.1",
+    "@rsbuild/core": "^1.1.8",
+    "@rsbuild/plugin-vue": "^1.0.5",
+    "eslint": "^9.12.0",
+    "globals": "^15.11.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.8.1"
+  }
+}
